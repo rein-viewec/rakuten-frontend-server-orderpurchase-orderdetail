@@ -44,7 +44,7 @@
                     "sku_tw": "sku-tw-ate56",
                     "mappingUnit_jp": 4.0,
                     "mappingUnit_tw": 1.0,
-                    "singleDemand ": 3,
+                    "singleDemand ": 20,
                     "purchaseStatus": {
                         "name": "其他",
                         "value": 99,
@@ -52,6 +52,52 @@
                     },
                     "jpShopItem": {
                         "shopid": 29,
+                        "itemName": "【台湾直送】CabinZero キャビンゼロ 28Lリュックサック バックパック 旅行用 通勤 大容量 男女兼用 グレー",
+                        "base_sku": "",
+                        "sku_jp": "sku-jp-ate56",
+                        "unitPrice": 3000,
+                        "deliverFrom": 2,
+                        "baseRate": 1.5,
+                        "exchangeRate": 3.8,
+                        "itemid": 57,
+                        "created_datetime": "2021-07-16T06:01:42.281376",
+                        "updated_datetime": "2021-07-16T06:01:42.281500"
+                    },
+                    "twShopItem": {
+                        "shopid": 29,
+                        "itemName": "【NICE】Cabeau 酷涼記憶棉頸枕2.0 - 霧黑 ",
+                        "base_sku": "",
+                        "sku_tw": "sku-tw-ate56",
+                        "unitPrice": 7000,
+                        "barCode": "3245233632",
+                        "itemid": 64,
+                        "created_datetime": "2021-07-16T06:01:41.542555",
+                        "updated_datetime": "2021-07-16T06:01:41.542747"
+                    },
+                    "created_datetime": "2021-07-16T06:01:42.288087",
+                    "updated_datetime": "2021-07-16T06:01:42.288216"
+                },
+                "shop": {
+                    "name": "台灣一杯青",
+                    "name_zh": null,
+                    "shop_url_tw": "http://testurl.tw",
+                    "shop_url_jp": "http://testurl.tw",
+                    "shopid": 29
+                }
+            },
+            {
+                "mappingUnit": {
+                    "sku_jp": "sku-jp-ate79",
+                    "sku_tw": "sku-tw-ate56",
+                    "mappingUnit_jp": 2.0,
+                    "mappingUnit_tw": 1.0,
+                    "singleDemand ": 3,
+                    "purchaseStatus": {
+                        "name": "商品訂購完成",
+                        "value": 1
+                    },
+                    "jpShopItem": {
+                        "shopid": 44,
                         "itemName": "【台湾直送】CabinZero キャビンゼロ 28Lリュックサック バックパック 旅行用 通勤 大容量 男女兼用 グレー",
                         "base_sku": "",
                         "sku_jp": "sku-jp-ate56",
