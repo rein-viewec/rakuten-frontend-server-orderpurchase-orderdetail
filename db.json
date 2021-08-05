@@ -28,7 +28,7 @@
                 "birthMonth": 1,
                 "birthDay": 26
             },
-            "payMentDetail": {
+            "paymentDetail": {
                 "settlementMethod": "クレジットカード",
                 "rpaySettlementFlag": 1,
                 "cardName": "VISA",
@@ -116,7 +116,7 @@
                 "birthMonth": 2,
                 "birthDay": 12
             },
-            "payMentDetail": {
+            "paymentDetail": {
                 "settlementMethod": "クレジットカード",
                 "rpaySettlementFlag": 1,
                 "cardName": "VISA",
