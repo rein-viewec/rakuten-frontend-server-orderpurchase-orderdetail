@@ -1,136 +1,180 @@
 {
-    "detail": {
-        "id": 12,
-        "orderDetail": {
-            "orderNumber": "379923-20210709-00092843",
-            "orderDatetime": "2021-07-09T01:10:30+0900",
-            "totalPrice": 16188,
-            "requestPrice": 15710,
-            "memo": "數商處 JW対応、日本発送"
-        },
-        "ordererDetail": {
-            "zipCode1": "222",
-            "zipCode2": "0001",
-            "prefecture": "神奈川県",
-            "city": "横浜市港北区",
-            "subAddress": "樽町2-7-28 アールブラン綱島305",
-            "familyName": "佐々木",
-            "firstName": "唯",
-            "familyNameKana": "ササキ",
-            "firstNameKana": "ユイ",
-            "phoneNumber1": "090",
-            "phoneNumber2": "5562",
-            "phoneNumber3": "3736",
-            "emailAddress": "e9e50b9fbe6fc004db4f6d7d15808f09s1@pc.fw.rakuten.ne.jp",
-            "sex": "女",
-            "birthYear": 1987,
-            "birthMonth": 1,
-            "birthDay": 26
-        },
-        "payMentDetail": {
-            "settlementMethod": "クレジットカード",
-            "rpaySettlementFlag": 1,
-            "cardName": "VISA",
-            "cardNumber": "XXXX-XXXX-XXXX-5673",
-            "cardOwner": "YUI SASAKI",
-            "cardYm": "2025-11",
-            "cardPayType": 0,
-            "cardInstallmentDesc": null
-        },
-        "orderItems": [
-            {
-                "mappingUnit": {
-                    "sku_jp": "sku-jp-ate56",
-                    "sku_tw": "sku-tw-ate56",
-                    "mappingUnit_jp": 4.0,
-                    "mappingUnit_tw": 1.0,
-                    "singleDemand ": 20,
-                    "purchaseStatus": {
-                        "name": "其他",
-                        "value": 99,
-                        "description": "status description"
-                    },
-                    "jpShopItem": {
-                        "shopid": 29,
-                        "itemName": "【台湾直送】CabinZero キャビンゼロ 28Lリュックサック バックパック 旅行用 通勤 大容量 男女兼用 グレー",
-                        "base_sku": "",
-                        "sku_jp": "sku-jp-ate56",
-                        "unitPrice": 3000,
-                        "deliverFrom": 2,
-                        "baseRate": 1.5,
-                        "exchangeRate": 3.8,
-                        "itemid": 57,
-                        "created_datetime": "2021-07-16T06:01:42.281376",
-                        "updated_datetime": "2021-07-16T06:01:42.281500"
-                    },
-                    "twShopItem": {
-                        "shopid": 29,
-                        "itemName": "【NICE】Cabeau 酷涼記憶棉頸枕2.0 - 霧黑 ",
-                        "base_sku": "",
-                        "sku_tw": "sku-tw-ate56",
-                        "unitPrice": 7000,
-                        "barCode": "3245233632",
-                        "itemid": 64,
-                        "created_datetime": "2021-07-16T06:01:41.542555",
-                        "updated_datetime": "2021-07-16T06:01:41.542747"
-                    },
-                    "created_datetime": "2021-07-16T06:01:42.288087",
-                    "updated_datetime": "2021-07-16T06:01:42.288216"
-                },
-                "shop": {
-                    "name": "台灣一杯青",
-                    "name_zh": null,
-                    "shop_url_tw": "http://testurl.tw",
-                    "shop_url_jp": "http://testurl.tw",
-                    "shopid": 29
-                }
+    "orderList": [
+        {
+            "id": 12,
+            "orderDetail": {
+                "orderNumber": "379923-20210709-00092843",
+                "orderDatetime": "2021-07-09T01:10:30+0900",
+                "totalPrice": 16188,
+                "requestPrice": 15710,
+                "memo": "數商處 JW対応、日本発送"
             },
-            {
-                "mappingUnit": {
-                    "sku_jp": "sku-jp-ate79",
-                    "sku_tw": "sku-tw-ate56",
-                    "mappingUnit_jp": 2.0,
-                    "mappingUnit_tw": 1.0,
-                    "singleDemand ": 3,
-                    "purchaseStatus": {
-                        "name": "商品訂購完成",
-                        "value": 1
-                    },
-                    "jpShopItem": {
-                        "shopid": 44,
-                        "itemName": "【台湾直送】CabinZero キャビンゼロ 28Lリュックサック バックパック 旅行用 通勤 大容量 男女兼用 グレー",
-                        "base_sku": "",
+            "ordererDetail": {
+                "zipCode1": "222",
+                "zipCode2": "0001",
+                "prefecture": "神奈川県",
+                "city": "横浜市港北区",
+                "subAddress": "樽町2-7-28 アールブラン綱島305",
+                "familyName": "佐々木",
+                "firstName": "唯",
+                "familyNameKana": "ササキ",
+                "firstNameKana": "ユイ",
+                "phoneNumber1": "090",
+                "phoneNumber2": "5562",
+                "phoneNumber3": "3736",
+                "emailAddress": "e9e50b9fbe6fc004db4f6d7d15808f09s1@pc.fw.rakuten.ne.jp",
+                "sex": "女",
+                "birthYear": 1987,
+                "birthMonth": 1,
+                "birthDay": 26
+            },
+            "payMentDetail": {
+                "settlementMethod": "クレジットカード",
+                "rpaySettlementFlag": 1,
+                "cardName": "VISA",
+                "cardNumber": "XXXX-XXXX-XXXX-5673",
+                "cardOwner": "YUI SASAKI",
+                "cardYm": "2025-11",
+                "cardPayType": 0,
+                "cardInstallmentDesc": null
+            },
+            "orderItems": [
+                {
+                    "mappingUnit": {
                         "sku_jp": "sku-jp-ate56",
-                        "unitPrice": 3000,
-                        "deliverFrom": 2,
-                        "baseRate": 1.5,
-                        "exchangeRate": 3.8,
-                        "itemid": 57,
-                        "created_datetime": "2021-07-16T06:01:42.281376",
-                        "updated_datetime": "2021-07-16T06:01:42.281500"
-                    },
-                    "twShopItem": {
-                        "shopid": 29,
-                        "itemName": "【NICE】Cabeau 酷涼記憶棉頸枕2.0 - 霧黑 ",
-                        "base_sku": "",
                         "sku_tw": "sku-tw-ate56",
-                        "unitPrice": 7000,
-                        "barCode": "3245233632",
-                        "itemid": 64,
-                        "created_datetime": "2021-07-16T06:01:41.542555",
-                        "updated_datetime": "2021-07-16T06:01:41.542747"
+                        "mappingUnit_jp": 4.0,
+                        "mappingUnit_tw": 1.0,
+                        "singleDemand ": 20,
+                        "purchaseStatus": {
+                            "name": "其他",
+                            "value": 99,
+                            "description": "status description"
+                        },
+                        "jpShopItem": {
+                            "shopid": 29,
+                            "itemName": "【台湾直送】CabinZero キャビンゼロ 28Lリュックサック バックパック 旅行用 通勤 大容量 男女兼用 グレー",
+                            "base_sku": "",
+                            "sku_jp": "sku-jp-ate56",
+                            "unitPrice": 3000,
+                            "deliverFrom": 2,
+                            "baseRate": 1.5,
+                            "exchangeRate": 3.8,
+                            "itemid": 57,
+                            "created_datetime": "2021-07-16T06:01:42.281376",
+                            "updated_datetime": "2021-07-16T06:01:42.281500"
+                        },
+                        "twShopItem": {
+                            "shopid": 29,
+                            "itemName": "【NICE】Cabeau 酷涼記憶棉頸枕2.0 - 霧黑 ",
+                            "base_sku": "",
+                            "sku_tw": "sku-tw-ate56",
+                            "unitPrice": 7000,
+                            "barCode": "3245233632",
+                            "itemid": 64,
+                            "created_datetime": "2021-07-16T06:01:41.542555",
+                            "updated_datetime": "2021-07-16T06:01:41.542747"
+                        },
+                        "created_datetime": "2021-07-16T06:01:42.288087",
+                        "updated_datetime": "2021-07-16T06:01:42.288216"
                     },
-                    "created_datetime": "2021-07-16T06:01:42.288087",
-                    "updated_datetime": "2021-07-16T06:01:42.288216"
-                },
-                "shop": {
-                    "name": "台灣一杯青",
-                    "name_zh": null,
-                    "shop_url_tw": "http://testurl.tw",
-                    "shop_url_jp": "http://testurl.tw",
-                    "shopid": 29
+                    "shop": {
+                        "name": "台灣一杯青",
+                        "name_zh": null,
+                        "shop_url_tw": "http://testurl.tw",
+                        "shop_url_jp": "http://testurl.tw",
+                        "shopid": 29
+                    }
                 }
-            }
-        ]
-    }
+            ]
+        },
+        {
+            "id": 13,
+            "orderDetail": {
+                "orderNumber": "379923-20210709-00098643",
+                "orderDatetime": "2021-07-12T01:10:30+0900",
+                "totalPrice": 31188,
+                "requestPrice": 35710,
+                "memo": "JW対応、日本発送 數商處 "
+            },
+            "ordererDetail": {
+                "zipCode1": "694",
+                "zipCode2": "0001",
+                "prefecture": "神奈川県",
+                "city": "横浜市港北区",
+                "subAddress": "樽町2-7-28 アールブラン綱島305",
+                "familyName": "佐々木",
+                "firstName": "唯",
+                "familyNameKana": "ササキ",
+                "firstNameKana": "ユイ",
+                "phoneNumber1": "090",
+                "phoneNumber2": "5562",
+                "phoneNumber3": "3736",
+                "emailAddress": "e9e50b9fbe6fc004db4f6d7d15808f09s1@pc.fw.rakuten.ne.jp",
+                "sex": "女",
+                "birthYear": 1995,
+                "birthMonth": 2,
+                "birthDay": 12
+            },
+            "payMentDetail": {
+                "settlementMethod": "クレジットカード",
+                "rpaySettlementFlag": 1,
+                "cardName": "VISA",
+                "cardNumber": "XXXX-XXXX-XXXX-9053",
+                "cardOwner": "YUI SASAKI",
+                "cardYm": "2025-12",
+                "cardPayType": 0,
+                "cardInstallmentDesc": null
+            },
+            "orderItems": [
+                {
+                    "mappingUnit": {
+                        "sku_jp": "sku-jp-ate56",
+                        "sku_tw": "sku-tw-ate56",
+                        "mappingUnit_jp": 4.0,
+                        "mappingUnit_tw": 1.0,
+                        "singleDemand ": 20,
+                        "purchaseStatus": {
+                            "name": "其他",
+                            "value": 99,
+                            "description": "status description"
+                        },
+                        "jpShopItem": {
+                            "shopid": 29,
+                            "itemName": "【台湾直送】CabinZero キャビンゼロ 28Lリュックサック バックパック 旅行用 通勤 大容量 男女兼用 グレー",
+                            "base_sku": "",
+                            "sku_jp": "sku-jp-ate56",
+                            "unitPrice": 3000,
+                            "deliverFrom": 2,
+                            "baseRate": 1.5,
+                            "exchangeRate": 3.8,
+                            "itemid": 57,
+                            "created_datetime": "2021-07-16T06:01:42.281376",
+                            "updated_datetime": "2021-07-16T06:01:42.281500"
+                        },
+                        "twShopItem": {
+                            "shopid": 29,
+                            "itemName": "【NICE】Cabeau 酷涼記憶棉頸枕2.0 - 霧黑 ",
+                            "base_sku": "",
+                            "sku_tw": "sku-tw-ate56",
+                            "unitPrice": 7000,
+                            "barCode": "3245233632",
+                            "itemid": 64,
+                            "created_datetime": "2021-07-16T06:01:41.542555",
+                            "updated_datetime": "2021-07-16T06:01:41.542747"
+                        },
+                        "created_datetime": "2021-07-16T06:01:42.288087",
+                        "updated_datetime": "2021-07-16T06:01:42.288216"
+                    },
+                    "shop": {
+                        "name": "台灣一杯青",
+                        "name_zh": null,
+                        "shop_url_tw": "http://testurl.tw",
+                        "shop_url_jp": "http://testurl.tw",
+                        "shopid": 29
+                    }
+                }
+            ]
+        }
+    ]
 }
